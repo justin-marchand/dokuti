@@ -20,7 +20,7 @@ podTemplate(label: label,
         
         stage('Run Downstream Pipeline'){
             //build 'dokuti-pipeline/887-link-upstream-and-downstream-repos'
-            build job: 'dokuti-pipeline/887-link-upstream-and-downstream-repos', parameters: [[$class: 'StringParameterValue', name: 'DOKUTI_BRANCH', value: ${gitBranch}], [$class: 'StringParameterValue', name: 'ParamB', value: paramBValue]]
+            build job: 'dokuti-pipeline/887-link-upstream-and-downstream-repos', parameters: [[$class: 'StringParameterValue', name: 'DOKUTI_BRANCH', value: 887-link-upstream-and-downstream-repos], [$class: 'StringParameterValue', name: 'ParamB', value: paramBValue]]
         }
  }
 }
