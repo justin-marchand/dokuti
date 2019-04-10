@@ -12,7 +12,7 @@ podTemplate(label: label,
 
     node(label) {
         stage('Initiate Downstream Pipeline'){
-            build ‘dokuti-pipeline/master'
+            build 'dokuti-pipeline/master'
         }
  }
 }
