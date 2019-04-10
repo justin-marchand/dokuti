@@ -22,7 +22,7 @@ podTemplate(label: label,
             //build 'dokuti-pipeline/887-link-upstream-and-downstream-repos'
             build job: 'dokuti-pipeline/887-link-upstream-and-downstream-repos', 
 				    parameters: [
-				        string(name: 'DOKUTI_BRANCH', value: "TEST"),
+				        string(name: 'DOKUTI_BRANCH', value: gitBranch),
 				        string(name: 'complex_param', value: "TEST_AGAIN")
 				    ]
         }
