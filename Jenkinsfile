@@ -6,6 +6,7 @@ podTemplate(label: label,
     ]) {
 
     node(label) {
+    	// Determine the branch information to send to the downstream pipeline.
     	def myRepo = checkout scm
         def gitCommit = myRepo.GIT_COMMIT
         def gitBranch = myRepo.GIT_BRANCH
