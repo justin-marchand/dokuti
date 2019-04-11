@@ -12,7 +12,8 @@ podTemplate(label: label,
         def gitBranch = myRepo.GIT_BRANCH
         
         stage('Run Downstream Pipeline'){
-            build job: 'dokuti-pipeline/887-link-upstream-and-downstream-repos', 
+            // builds the current dokuti commit using the latest version on the master branch of the dokuti-pipeline project.
+            build job: 'dokuti-pipeline/master', 
 				    parameters: [
 				        string(name: 'DOKUTI_BRANCH', value: gitBranch),
 				        string(name: 'DOKUTI_COMMIT', value: gitCommit)
