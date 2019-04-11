@@ -1,5 +1,6 @@
 [![CircleCI](https://circleci.com/gh/GrindrodBank/dokuti.svg?style=svg)](https://circleci.com/gh/GrindrodBank/dokuti)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGrindrodBank%2Fdokuti.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FGrindrodBank%2Fdokuti?ref=badge_shield)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GrindrodBank_dokuti&metric=alert_status)](https://sonarcloud.io/dashboard?id=GrindrodBank_dokuti)
 
 # Dokuti
 

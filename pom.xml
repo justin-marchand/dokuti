@@ -6,7 +6,7 @@
 
 	<groupId>za.co.grindrodbank</groupId>
 	<artifactId>dokuti</artifactId>
-	<version>0.2.0</version>
+	<version>0.3.0</version>
 	<packaging>jar</packaging>
 
 	<name>dokuti</name>
